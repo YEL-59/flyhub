@@ -1,0 +1,270 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  ul>li:nth-child(4){
+      float: right;
+
+  }
+  ul>li:nth-child(5){
+    float: right;
+
+}
+ul>li:nth-child(6){
+    float: right;
+
+}
+.n-wrapper{
+    display: flex;
+    gap: 5rem;
+    height: 10vh;
+    padding: 14px;
+}
+.n-right{
+    width: 100%;
+}
+/*heroimg*/
+.hero-img{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+     
+}
+.hero-text{
+    max-width: 900px;
+    position: relative;
+    top: -450px;
+    left: 150px;
+}
+.hero-text>h1{
+    font-size:3.4rem ;
+    font-weight:500px ;
+    color:white;
+}
+.hero-text>p{
+    font-size:1.8rem ;
+    font-weight:500px ;
+    color:rgb(238, 212, 212);
+}
+.btn{
+    max-width: 250px;
+    padding: 14px;
+    color: rgb(93, 85, 207);
+}
+/*..../hero img.....*/
+.section-3{
+  position: relative;
+  top: -280px;
+  
+}
+.text-center{
+    text-align: center;
+}
+.Hr{
+    margin-top: 100px;
+    width: 85%;
+    opacity: 0.5;
+   
+}
+
+/*............end secton-3.......*/
+.section-4{
+    position: relative;
+    top: -280px;
+    
+  }
+  .section-4-text{
+      margin-bottom: 150px;
+  }
+  .row{
+
+      display: flex;
+      gap: 2rem;
+  }
+  .col-1{
+      flex: 1;
+      background-color: burlywood;
+      border-radius: 12px;
+  }
+  .col-2{
+      flex: 1;
+      background-color: rgba(109, 109, 228, 0.596);
+      border-radius: 12px;
+  }
+  .col-1-img{
+      position: relative;
+      top: -100px;
+  }
+  .col-1-text{
+    position: relative;
+    top: -50px;
+    left: 20px;
+    
+}
+  .col-1-text h1{
+    font-size:34px ;
+    font-weight:200 ;
+}
+.col-1-text p{
+    font-size:15px ;
+    
+}
+/*section-5 start*/
+.c-1-text{
+    max-width: 600px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.c-1-card{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    padding: 14px;
+    margin-top: 20px;
+}
+.c-1-card h1{
+    font-size: 15px;
+    font-weight: 900;
+}
+.c-1-card p{
+    font-size: 12px;
+    font-weight: 200;
+}
+/*............end section-5 start*/
+.section-6{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(228, 228, 241, 0.596) ;
+}
+.section-6-text{
+    position: relative;
+    top: 82px;
+    margin-bottom: 180px;
+}
+.card{
+    height: auto;
+    width: 200px;
+    padding: 24px;
+}
+.card-img{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+background-color: rgb(190, 190, 190);
+margin: auto;
+}
+.fa-desktop{
+    font-size: 20px;
+    position: relative;
+    left: 13px;
+    top: 15px;
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+    position: relative;
+    left: 13px;
+    top: 15px;
+}
+.fa-circle-dollar-to-slot{
+    font-size: 20px;
+    position: relative;
+    left: 13px;
+    top: 15px;
+}
+.fa-clock{
+    font-size: 20px;
+    position: relative;
+    left: 13px;
+    top: 15px;
+}
+.card-text{
+    text-align: center;
+}
+.card:hover{
+    background-color: white;
+}
+
+.flex-card{
+    display: flex;
+    gap: 2rem;
+}
+/***********section-8**********/
+.section-8-text{
+    position: relative;
+    top: -300px;
+    left: 300px;
+    width: 900px;
+    
+}
+.section-8-text h1{
+font-size: 55px;
+color: #f1f1f1;
+
+}
+
+
+.Card-text>p{
+ color: rgb(107, 136, 126);
+}
+.last-footer{
+    display: flex;
+    gap: 3rem;
+}
+.f-col-1{
+    display:flex;
+    max-width: 650px;
+}
+.f-col-2{
+    display: flex;
+}
+.f-col-2 img{
+    max-width: 300px;
+}
